@@ -1,0 +1,11 @@
+
+<div class=" w-52 rounded ml-20">
+    <label for="">Counter Input</label><br>
+    <input type="text" [(ngModel)]="counterInput" class="rounded"><br><br>
+    <label for="">Action type</label><br>
+    <select name="" id="" [(ngModel)]="actiontype" class="rounded w-40">
+        <option value="add">Add</option>
+        <option value="remove">Remove</option>
+    </select>
+    <button (click)="onIncrement()" class="bg-blue-500 rounded p-2 text-white font-bold mt-5">Proceed</button>
+</div>
